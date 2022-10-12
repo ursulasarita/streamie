@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #1D1529;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.sidenav {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    height: 100%;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.navicon {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+}
+
+.hero {
+    height: 100vh; 
+    border: 1px solid red;
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+}
+
+.home-trailer {
+    height: 55%;
+    border: 1px solid blue;
+    background-color: rgba(58, 58, 58, 0.2);
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.trailer-description {
+    width: 40%;
+    border: 1px solid purple;
+}
+
+.title {
+    font-size: 64pt;
+    font-weight: 800;
+}
+
+.tags {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+}
+
+.tag {
+    padding: 3px 10px;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+.match {
+    color: #9D50FF;
+    font-weight: 800;
+}
+
+.rating {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.title-description {
+    font-size: 14pt;
+    padding: 30px 0px;
+}
+
+.your-favorites {
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttons-wrapper {
+    padding-top: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    font-size: 16pt;
+    color: white;
+    border: none;
+    font-weight: 550;
+    letter-spacing: 1.2px;
+}
+
+.watch {
+    width: 150px;
+    padding: 10px 20px;
+    background-color: #9D50FF;
+    border-radius: 10px;
+}
+
+.add-to-list {
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.sub-title {
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .carousel {
+        flex-direction: column;
+    }
+}
+
+.placeholder-box {
+    width: 300px;
+    height: 180px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.sub-section {
+    border: 1px solid mediumspringgreen;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.platform-button{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.netflix {
+    background-color: #E50914;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.disney {
+    background-color: #12194A;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.hulu {
+    background-color: #1ce783;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.amazon {
+    background-color: #00A8E1;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.hbo {
+    background-color: #663399;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.portrait {
+    height: 450px;
+}
